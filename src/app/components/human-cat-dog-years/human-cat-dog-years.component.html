@@ -1,0 +1,27 @@
+<div class="container">
+  <h1 class="container__title">Cat years, Dog years</h1>
+  <p class="container__description">
+    Função que retorne suas respectivas idades.<br />
+    considerando a sua idade em anos Humano | anos Gato | anos Cachorro o
+    <br />
+    O retorno é um array como o abaixo:
+    <br />[humanYears, catYears, dogYears]
+    <br />
+    <br />Ex: 20
+  </p>
+  <div class="container__form">
+    <input
+      #input
+      class="form__input"
+      type="text"
+      placeholder="human years..."
+    />
+    <button
+      (click)="humanYearsCatYearsDogYears(+input.value)"
+      class="form__button"
+    >
+      Run
+    </button>
+  </div>
+  <textarea class="container__output">{{ message }}</textarea>
+</div>
