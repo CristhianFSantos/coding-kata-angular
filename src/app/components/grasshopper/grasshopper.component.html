@@ -11,8 +11,8 @@
       </pre
   >
   <div class="container__form">
-    <input class="form__input" type="text" placeholder="name, owner" />
-    <button class="form__button">Run</button>
+    <input #input class="form__input" type="text" placeholder="name, owner" />
+    <button (click)="greet(input.value)" class="form__button">Run</button>
   </div>
-  <textarea class="container__output"></textarea>
+  <textarea class="container__output">{{ message }}</textarea>
 </div>
