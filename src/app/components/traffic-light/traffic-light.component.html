@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="container__title">Traffic light</h1>
+  <p class="container__description">
+    Função que lida com cada mudança de verde para amarelo, para vermelho e, em
+    seguida, para verde novamente. Essa função recebe uma string que representa
+    o estado atual e retorna uma string que representa o estado para o qual a
+    luz deve mudar.
+    <br />
+    <br />
+    Ex: green: retorno: yellow
+  </p>
+  <div class="container__form">
+    <input #input class="form__input" type="text" placeholder="color..." />
+    <button (click)="updateLight(input.value)" class="form__button">Run</button>
+  </div>
+  <textarea class="container__output">{{ message }}</textarea>
+</div>

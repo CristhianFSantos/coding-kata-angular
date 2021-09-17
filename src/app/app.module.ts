@@ -6,6 +6,7 @@ import { GrasshopperComponent } from './components/grasshopper/grasshopper.compo
 import { MagicFunctionComponent } from './components/magic-function/magic-function.component';
 import { HumanCatDogYearsComponent } from './components/human-cat-dog-years/human-cat-dog-years.component';
 import { CountByXComponent } from './components/count-by-x/count-by-x.component';
+import { TrafficLightComponent } from './components/traffic-light/traffic-light.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CountByXComponent } from './components/count-by-x/count-by-x.component'
     GrasshopperComponent,
     MagicFunctionComponent,
     HumanCatDogYearsComponent,
-    CountByXComponent
+    CountByXComponent,
+    TrafficLightComponent
   ],
   imports: [
     BrowserModule
