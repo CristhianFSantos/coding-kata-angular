@@ -7,13 +7,15 @@ import { Component } from '@angular/core';
 export class GrasshopperComponent {
   message = '';
 
-  separateDataByComma(data: string): string[] {
-    return data.replace(' ', '').split(',');
+  receiveAndProcessData(data: string): void {
+    const arrayData = data.replace(' ', '').split(',');
+
+    this.greet(arrayData);
   }
 
-  greet(data: string) {
+  greet(names: string[]) {
     this.message = '';
-    const [name, owner] = this.separateDataByComma(data);
+    const [name, owner] = names;
 
     const messages = ['Hello boss', 'Hello guest'];
 

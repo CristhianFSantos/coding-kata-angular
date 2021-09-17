@@ -1,14 +1,16 @@
 <div class="container">
   <h1 class="container__title">Grasshopper - Personalized Message</h1>
   <p class="container__description">
-    Função que fornece uma saudação personalizada. Esta função recebe dois
-    parâmetros, <strong>name</strong> e <strong>owner</strong>. Caso o name seja
-    igual ao owner retorne: 'Hello boss'. Caso contrário retorne: 'Hello guest.
-    Ex: John, John
+    Função que fornece uma saudação personalizada.<br />Esta função recebe dois
+    parâmetros, <strong>name</strong> e <strong>owner</strong>.<br />Caso o name
+    seja igual ao owner retorne: 'Hello boss'.<br />Caso contrário retorne:
+    'Hello guest.<br /><br />Ex: John, John
   </p>
   <div class="container__form">
     <input #input class="form__input" type="text" placeholder="name, owner" />
-    <button (click)="greet(input.value)" class="form__button">Run</button>
+    <button (click)="receiveAndProcessData(input.value)" class="form__button">
+      Run
+    </button>
   </div>
   <textarea class="container__output">{{ message }}</textarea>
 </div>
