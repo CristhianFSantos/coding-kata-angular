@@ -1,0 +1,20 @@
+<div class="container">
+  <h1 class="container__title">Count by X</h1>
+  <p class="container__description">
+    Função retorna um array dos primeiros (n) números de acordo com o step
+    informado.
+    <br />
+    <br />Nota: O número fornecido e o número de vezes para contar sempre serão
+    números positivos.
+    <br />
+    <br />
+    Ex: 1,10
+  </p>
+  <div class="container__form">
+    <input #input class="form__input" type="text" placeholder="step, times" />
+    <button (click)="receiveAndProcessData(input.value)" class="form__button">
+      Run
+    </button>
+  </div>
+  <textarea class="container__output">{{ message }}</textarea>
+</div>
