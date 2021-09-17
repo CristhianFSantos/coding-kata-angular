@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { GrasshopperComponent } from './components/grasshopper/grasshopper.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GrasshopperComponent
   ],
   imports: [
     BrowserModule
