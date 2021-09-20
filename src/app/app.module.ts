@@ -9,6 +9,7 @@ import { CountByXComponent } from './components/count-by-x/count-by-x.component'
 import { TrafficLightComponent } from './components/traffic-light/traffic-light.component';
 import { SortAndStarComponent } from './components/sort-and-star/sort-and-star.component';
 import { MusicalNotesComponent } from './components/musical-notes/musical-notes.component';
+import { EnsureQuestionComponent } from './components/ensure-question/ensure-question.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MusicalNotesComponent } from './components/musical-notes/musical-notes.
     CountByXComponent,
     TrafficLightComponent,
     SortAndStarComponent,
-    MusicalNotesComponent
+    MusicalNotesComponent,
+    EnsureQuestionComponent
   ],
   imports: [
     BrowserModule
