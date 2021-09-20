@@ -11,6 +11,7 @@ import { SortAndStarComponent } from './components/sort-and-star/sort-and-star.c
 import { MusicalNotesComponent } from './components/musical-notes/musical-notes.component';
 import { EnsureQuestionComponent } from './components/ensure-question/ensure-question.component';
 import { AlternatingCaseComponent } from './components/alternating-case/alternating-case.component';
+import { AvoidingFalseValuesComponent } from './components/avoiding-false-values/avoiding-false-values.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AlternatingCaseComponent } from './components/alternating-case/alternat
     SortAndStarComponent,
     MusicalNotesComponent,
     EnsureQuestionComponent,
-    AlternatingCaseComponent
+    AlternatingCaseComponent,
+    AvoidingFalseValuesComponent
   ],
   imports: [
     BrowserModule

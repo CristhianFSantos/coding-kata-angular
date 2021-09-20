@@ -1,0 +1,18 @@
+<div class="container">
+  <h1 class="container__title">Avoiding false values</h1>
+  <p class="container__description">
+    Função que faz a soma de dois números que deve desconsiderar os falsy
+    values, lembrando que o número zero não deverá ser considerado um deles,
+    pois ele representa um valor válido que pode ser somado com qualquer valor.
+    <br />
+    <br />
+    Ex: 1,0
+  </p>
+  <div class="container__form">
+    <input #input class="form__input" type="text" placeholder="numbers..." />
+    <button (click)="receiveAndProcessData(input.value)" class="form__button">
+      Run
+    </button>
+  </div>
+  <textarea class="container__output">{{ message }}</textarea>
+</div>
