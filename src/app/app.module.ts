@@ -7,6 +7,7 @@ import { MagicFunctionComponent } from './components/magic-function/magic-functi
 import { HumanCatDogYearsComponent } from './components/human-cat-dog-years/human-cat-dog-years.component';
 import { CountByXComponent } from './components/count-by-x/count-by-x.component';
 import { TrafficLightComponent } from './components/traffic-light/traffic-light.component';
+import { SortAndStarComponent } from './components/sort-and-star/sort-and-star.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TrafficLightComponent } from './components/traffic-light/traffic-light.
     MagicFunctionComponent,
     HumanCatDogYearsComponent,
     CountByXComponent,
-    TrafficLightComponent
+    TrafficLightComponent,
+    SortAndStarComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,24 @@
+<div class="container">
+  <h1 class="container__title">Sort and Star</h1>
+  <p class="container__description">
+    Classifica em ordem alfabética (com base nos valores ASCII dos caracteres)
+    e, em seguida, retornar o primeiro valor do array.
+    <br />
+    O valor retornado é uma string e tem "***" entre cada uma de suas letras.
+    <br />
+    <br />
+    Ex: turns, Bitcoin, BTC
+  </p>
+  <div class="container__form">
+    <input
+      #input
+      class="form__input"
+      type="text"
+      placeholder="string array..."
+    />
+    <button (click)="receiveAndProcessData(input.value)" class="form__button">
+      Run
+    </button>
+  </div>
+  <textarea class="container__output">{{ message }}</textarea>
+</div>
