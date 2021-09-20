@@ -8,6 +8,7 @@ import { HumanCatDogYearsComponent } from './components/human-cat-dog-years/huma
 import { CountByXComponent } from './components/count-by-x/count-by-x.component';
 import { TrafficLightComponent } from './components/traffic-light/traffic-light.component';
 import { SortAndStarComponent } from './components/sort-and-star/sort-and-star.component';
+import { MusicalNotesComponent } from './components/musical-notes/musical-notes.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SortAndStarComponent } from './components/sort-and-star/sort-and-star.c
     HumanCatDogYearsComponent,
     CountByXComponent,
     TrafficLightComponent,
-    SortAndStarComponent
+    SortAndStarComponent,
+    MusicalNotesComponent
   ],
   imports: [
     BrowserModule

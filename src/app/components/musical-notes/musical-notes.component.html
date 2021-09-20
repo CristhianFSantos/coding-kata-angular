@@ -1,0 +1,16 @@
+<div class="container">
+  <h1 class="container__title">Musical Notes</h1>
+  <p class="container__description">
+    Função abaixo retorna uma nota musical a partir de um número inteiro. Caso o
+    número seja maior que o tamanho do array, a contagem deve ser feita em modo
+    circular. Caso o número seja negativo a lógica deve ser invertida
+    <br />
+    <br />
+    EX: 5
+  </p>
+  <div class="container__form">
+    <input #input class="form__input" type="text" placeholder="number..." />
+    <button (click)="getNote(input.value)" class="form__button">Run</button>
+  </div>
+  <textarea class="container__output">{{ message }}</textarea>
+</div>
