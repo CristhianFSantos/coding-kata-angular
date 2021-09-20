@@ -10,6 +10,7 @@ import { TrafficLightComponent } from './components/traffic-light/traffic-light.
 import { SortAndStarComponent } from './components/sort-and-star/sort-and-star.component';
 import { MusicalNotesComponent } from './components/musical-notes/musical-notes.component';
 import { EnsureQuestionComponent } from './components/ensure-question/ensure-question.component';
+import { AlternatingCaseComponent } from './components/alternating-case/alternating-case.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EnsureQuestionComponent } from './components/ensure-question/ensure-que
     TrafficLightComponent,
     SortAndStarComponent,
     MusicalNotesComponent,
-    EnsureQuestionComponent
+    EnsureQuestionComponent,
+    AlternatingCaseComponent
   ],
   imports: [
     BrowserModule
